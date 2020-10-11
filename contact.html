@@ -124,19 +124,29 @@
 
             <div class="col-md-6">
               <h6>Заполните форму</h6>
-              <form id="validForm">
+              
+
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='subscribe.html';}"></iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfZeaEHdttTKdEWQD_SgQ3Uk55d3w7wR02f9JMI-XNJ9671VQ/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
+
                 <div class="row">
-                  <div class="form-group col-md-6">
-                    <input type="text" name="name" class="form-control" id="cl" placeholder="Представьтесь" autocomplete="off">
+
+                  <div class="form-group col-md-12">
+                    <input name="entry.877354490" type="text" class="form-control counrty-form" value="ru-contact" autocomplete="off">
                   </div>
-                  <div class="form-group col-md-6">
-                    <input type="email" name="email" class="form-control" placeholder="Ваша эл.почта" autocomplete="off">
+
+                  <div class="form-group col-md-12">
+                    <input name="entry.1809082168" type="text" class="form-control" placeholder="Представьтесь" autocomplete="off">
                   </div>
                   <div class="form-group col-md-12">
-                    <input type="text" name="subject" class="form-control" placeholder="Тема сообщения">
+                    <input name="entry.85196393" type="email" class="form-control" placeholder="Ваша эл.почта">
                   </div>
                   <div class="form-group col-md-12">
-                    <textarea name="message" class="form-control" id="message" placeholder="Текст сообщения"></textarea>
+                    <textarea name="entry.1533863879" class="form-control" id="message" placeholder="Текст сообщения"></textarea>
                   </div>
                   <div class="col-md-12">
                     <div class="ms-button" data-title="Отправить">Отправить
@@ -145,6 +155,8 @@
                   </div>
                 </div>
               </form>
+
+
             </div>
             </div>
         </div>
