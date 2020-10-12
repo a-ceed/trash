@@ -1576,7 +1576,7 @@ display: none;
     font-size: 14px;
     text-align: center;
     font-weight: bold;
-    border: 1px solid #fff; 
+    border: 2px solid #fff; 
 }
 .formname input[type=submit] {
     display: block;
@@ -1589,4 +1589,10 @@ display: none;
 .formname input[disabled] {
     opacity: .2;
     cursor: not-allowed;
+}
+/* End Politics flag */
+
+.footerlink{
+color:#9f9f9f;
+padding-left: 50px;
 }
