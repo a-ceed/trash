@@ -186,9 +186,22 @@ target="hidden_iframe" onsubmit="submitted=true;">
                     <textarea name="entry.1533863879" class="form-control" id="message" placeholder="Текст сообщения"></textarea>
                   </div>
                   <div class="col-md-12">
-                    <div class="ms-button" data-title="Отправить">Отправить
-                      <input type="submit" value="send">
+
+
+
+
+                    
+
+
+<div class="formname">
+  <input id="checkbox" type="checkbox" name="checkbox" onchange="document.getElementById('submit').disabled = !this.checked;" />
+  <label for="checkbox">Подтверждаю согласие с Политикой конфиденциальности и Пользовательским соглашением</label> 
+  <div class="ms-button" data-title="Отправить">Отправить
+                      <input type="submit" disabled="disabled" name="submit" id="submit" value="" />
                     </div>
+</div>
+
+
                   </div>
                 </div>
               </form>
