@@ -1463,8 +1463,14 @@ color: #fff;
 .patreon {
     padding-left: 25px;
     float: left;
-    width: 230px;
+    width: 220px;
 
+}
+
+.patreon {
+    padding-left: 25px;
+    width: 240px;
+    float: left;
 }
 
 
