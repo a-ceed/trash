@@ -41,7 +41,8 @@ Author: madsparrow.us
  */
  
 /*Text font*/
-@import 'https://fonts.googleapis.com/css?family=Yantramanav:100,300,400,500,700,900';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,500,700,900';
+ащкь
 
 /*Social icons font*/
 @import 'https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8';
@@ -59,7 +60,7 @@ body {
     padding: 0;
     margin: 0 auto;
     min-height: 100vh;
-    font-family: 'Yantramanav', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     color: #9F9F9F;
     background-color: #242424;
 
@@ -108,7 +109,7 @@ button:focus {
 }
 input,
 textarea {
-    font-family: 'Yantramanav', Arial;
+    font-family: 'Open Sans', Arial;
 }
 textarea {
     padding: 14px;
@@ -362,7 +363,7 @@ p {
 }
 .hamburger-label {
     display: block;
-    font-family: 'Yantramanav', Arial;
+    font-family: 'Open Sans', Arial;
     font-size: 16px;
     width: 100%;
     height: auto;
@@ -614,7 +615,7 @@ p {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
     opacity: 1;
     background: -moz-linear-gradient(top, black 0, transparent 50%, transparent 63%, rgba(0, 0, 0, 1) 100%);
     background: -webkit-linear-gradient(top, black 0, transparent 50%, transparent 63%, rgba(0, 0, 0, 1) 100%);
@@ -1147,7 +1148,7 @@ p {
     height: 34px;
     font-size: calc(16px + 2 * (100vw - 992px) / 1508);
     color: #151515;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 2em;
     background-image: none;
     border: 1px solid #555;
@@ -1550,6 +1551,8 @@ display: none;
 }
 
 
+
+
 /* Politics flag */
 
 .formname input[type=checkbox] {
@@ -1601,4 +1604,74 @@ display: none;
 .footerlink{
 color:#9f9f9f;
 padding-left: 50px;
+}
+
+/* Cookie */
+
+#cookie_notification{
+  display: none;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: fixed;
+  top: 35px;
+  left: 50%;
+  width: 600px;
+  max-width: 90%;
+  transform: translateX(-50%);
+  padding: 12px;
+
+  background-color: #000;
+  border-radius: 4px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+  z-index: 4;
+}
+
+#cookie_notification p{
+  margin: 0;
+  font-size: 0.7rem;
+  text-align: left;
+  color: #fff;
+    padding-right: 15px;
+    padding-bottom: 3px;
+}
+
+
+
+@media (min-width: 576px){
+  #cookie_notification.show{
+    display: flex;
+      color: #fff;
+  }
+  .cookie_accept{
+    margin: 0 25px 0 12px;
+    color: #fff;
+        padding-bottom: 5px;
+cursor: pointer;
+
+
+
+  }
+
+
+}
+
+@media (max-width: 575px){
+  #cookie_notification.show{
+    display: block;
+    text-align: left;
+      color: #fff;
+  }
+  .cookie_accept{
+    margin: 10px 0 0 0;
+      color: #fff;
+  }
+}
+.x{
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    padding: 0px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
 }
