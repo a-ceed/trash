@@ -840,6 +840,7 @@ p {
 .filtr-btn {
     display: inline-block;
     margin-bottom: 2.4em;
+    min-height: 40px;
 }
 .filtr-btn li {
     cursor: pointer;
