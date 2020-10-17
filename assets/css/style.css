@@ -177,7 +177,7 @@ h6 {
 p {
     font-size: calc(16px + 2 * (100vw - 992px) / 1508);
     line-height: 1.8;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* 1.2 Specials Classes */
