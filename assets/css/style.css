@@ -1604,7 +1604,8 @@ display: none;
 
 .footerlink{
 color:#9f9f9f;
-padding-left: 50px;
+padding-left: 20px;
+float: left;
 }
 
 /* Cookie */
@@ -1679,4 +1680,6 @@ cursor: pointer;
 
 summary {
     outline: none;
+    color: #EFEFEF;
+    padding:10px;
 }
