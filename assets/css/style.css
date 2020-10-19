@@ -1683,3 +1683,7 @@ summary {
     color: #EFEFEF;
     padding:10px;
 }
+
+.disqus_thread{
+    max-width: 800px;
+}
