@@ -1684,7 +1684,7 @@ summary {
     padding:10px;
 }
 
-.disqus_thread{
+#disqus_thread{
     max-width: 800px;
     padding-top: 50px;
 }
