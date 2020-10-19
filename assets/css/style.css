@@ -1688,5 +1688,9 @@ summary {
 
 #disqus_thread {
 
-    padding-top: 100px;
+    padding-top: 0px;
+}
+
+#comment_label{
+    padding-top: 80px;
 }
