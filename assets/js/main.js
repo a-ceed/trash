@@ -259,3 +259,15 @@ function checkCookies(){
     })
 }
 checkCookies();
+
+/*------------------
+URL Param
+-------------------*/
+// const params = new Proxy(new URLSearchParams(window.location.search), {
+//     get: (searchParams, prop) => searchParams.get(prop),
+// });
+// let value = params.companyname; // "some_value"
+// console.log('Значение:', value);
+
+
+
