@@ -1206,7 +1206,7 @@ footer {
  * 11. Responsive Rules
  */
 
-@media only screen and (max-width: 805px) {
+@media only screen and (max-width: 910px) {
     h1 {
         font-size: calc(28px + 1vw);
     }
@@ -1709,14 +1709,3 @@ summary {
 
 /* New Style Trash Card */
 
-.trash-container {
-display: flex;
-flex-wrap:wrap;
-flex-direction: row
-
-}
-
-.trash-link {
-      display: flex;
-  flex-grow:1;
-}
