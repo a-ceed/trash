@@ -1366,8 +1366,8 @@ footer {
  border-radius: 12px;
   padding: 30px 30px 0px 30px;
 flex-grow:1;
-  min-width: 330px;
-margin: 10px;
+  min-width: 255px;
+margin: 0px;
 }
 
 
