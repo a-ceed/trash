@@ -29,6 +29,12 @@ var counterCoca;
         counterStarbucks = result[2][1];
         counterPhilipmorris = result[3][1];
         counterMcdonalds = result[4][1];
+        counterNestle = result[5][1];
+        counterPepsi = result[6][1];
+        counterUnilever = result[7][1];
+        counterPg = result[8][1];
+        counterMonsanto = result[9][1];
+        counterMondelez = result[10][1];
 
 
         document.getElementById('cocaColaCounter').innerHTML = counterCoca;
@@ -36,6 +42,12 @@ var counterCoca;
         document.getElementById('starbucksCounter').innerHTML = counterStarbucks;
         document.getElementById('philipmorrisCounter').innerHTML = counterPhilipmorris;
         document.getElementById('mcdonaldsCounter').innerHTML = counterMcdonalds;
+        document.getElementById('nestleCounter').innerHTML = counterNestle;
+        document.getElementById('pepsiCounter').innerHTML = counterPepsi;
+        document.getElementById('unileverCounter').innerHTML = counterUnilever;
+        document.getElementById('pgCounter').innerHTML = counterPg;
+        document.getElementById('monsantoCounter').innerHTML = counterMonsanto;
+        document.getElementById('mondelezCounter').innerHTML = counterMondelez;
 
 
     }

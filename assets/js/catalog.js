@@ -36,5 +36,47 @@ const CATALOG = [
         counter: 'mcdonaldsCounter',
         link: 'international-trash-award-company.html?companyname=mcdonalds',
     },
+    {
+        id: '06',
+        name: 'Nestle',
+        logo: 'logocompany/nestle-logo-international-trash-award.jpg',
+        counter: 'nestleCounter',
+        link: 'international-trash-award-company.html?companyname=nestle',
+    },
+    {
+        id: '07',
+        name: 'Pepsi',
+        logo: 'logocompany/pepsi-logo-international-trash-award.jpg',
+        counter: 'pepsiCounter',
+        link: 'international-trash-award-company.html?companyname=pepsi',
+    },
+    {
+        id: '08',
+        name: 'Unilever',
+        logo: 'logocompany/unilever-logo-international-trash-award.jpg',
+        counter: 'unileverCounter',
+        link: 'international-trash-award-company.html?companyname=unilever',
+    },
+    {
+        id: '09',
+        name: 'Procter & Gamble',
+        logo: 'logocompany/pg-logo-international-trash-award.jpg',
+        counter: 'pgCounter',
+        link: 'international-trash-award-company.html?companyname=pg',
+    },
+    {
+        id: '10',
+        name: 'Monsanto',
+        logo: 'logocompany/monsanto-logo-international-trash-award.jpg',
+        counter: 'monsantoCounter',
+        link: 'international-trash-award-company.html?companyname=monsanto',
+    },
 
+    {
+        id: '11',
+        name: 'mondelez',
+        logo: 'logocompany/mondelez-logo-international-trash-award.jpg',
+        counter: 'mondelezCounter',
+        link: 'international-trash-award-company.html?companyname=mondelez',
+    },
 ];
