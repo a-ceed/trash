@@ -66,12 +66,12 @@ class Header {
               </li>
 
                             <!-- Nav Link -->
-              <li class="nav-item">
-                <a href="blog.html" data-type="page-transition">
-                  <span class="ms-btn">Blog</span>
-                  <span class="nav-item__label"></span>
-                </a>
-              </li>
+<!--              <li class="nav-item">-->
+<!--                <a href="blog.html" data-type="page-transition">-->
+<!--                  <span class="ms-btn">Blog</span>-->
+<!--                  <span class="nav-item__label"></span>-->
+<!--                </a>-->
+<!--              </li>-->
 
             </ul>
           </div>

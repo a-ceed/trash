@@ -33,29 +33,29 @@ class Vote {
             <input name="entry.1181447888" type="text" class="form-control counrty-form" value="${value}" autocomplete="off">
         </div>
         <div class="form-group col-md-12">
-            <input disabled name="entry.363729782" type="text" class="form-control" value="Голос за:${value}" autocomplete="off">
+            <input disabled name="entry.363729782" type="text" class="form-control" value="Vote for a: ${value}" autocomplete="off">
         </div>
         <div class="form-group col-md-12">
-            <input name="entry.990117292" type="text" class="form-control" id="cl" placeholder="Представьтесь" autocomplete="off">
+            <input name="entry.990117292" type="text" class="form-control" id="cl" placeholder="Name*" autocomplete="off">
         </div>
         <div class="form-group col-md-12">
-            <input name="entry.1079516199" type="text"  class="form-control" placeholder="Ваша страна" autocomplete="off">
+            <input name="entry.1079516199" type="text"  class="form-control" placeholder="Country" autocomplete="off">
         </div>
         <div class="form-group col-md-12">
-            <input name="entry.1687308716" type="text"  class="form-control" placeholder="Ссылка на ваш сайт или соцсеть(по желанию)" autocomplete="off">
+            <input name="entry.1687308716" type="text"  class="form-control" placeholder="Your web page" autocomplete="off">
         </div>
         <div class="form-group col-md-12">
-            <input name="entry.1165884763" type="email" class="form-control" placeholder="Ваша эл.почта">
+            <input name="entry.1165884763" type="email" class="form-control" placeholder="Email*">
         </div>
         <div class="form-group col-md-12">
-            <textarea name="entry.1121191870" class="form-control" id="message" placeholder="Аргументируйте своё решение"></textarea>
+            <textarea name="entry.1121191870" class="form-control" id="message" placeholder="Argument your opinion*"></textarea>
         </div>
         
         <div class="col-md-12">
             <div class="formname">
                 <input id="checkbox" type="checkbox" name="checkbox" onchange="document.getElementById('submit').disabled = !this.checked;" />
-                <label for="checkbox">Подтверждаю согласие с Политикой конфиденциальности и Пользовательским соглашением</label>
-                <div class="ms-button" data-title="Отправить">Отправить
+                <label for="checkbox">I agree with the Privacy Policy and User Agreement</label>
+                <div class="ms-button" data-title="Send">Send
                     <input type="submit" disabled="disabled" name="submit" id="submit" value="" />
                 </div>
             </div>

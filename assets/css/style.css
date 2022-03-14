@@ -1192,7 +1192,13 @@ footer {
     padding: 1.2em 0;
     margin-left: 0;
     margin-right: auto;
+    display: inline;
 }
+
+.ms-footer .copyright div {
+    display: inline;
+}
+
 .ms-footer .socials {
     padding: 0;
     margin-left: auto;
