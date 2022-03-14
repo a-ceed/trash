@@ -74,7 +74,7 @@ const CATALOG = [
 
     {
         id: '11',
-        name: 'mondelez',
+        name: 'Mondelez',
         logo: 'logocompany/mondelez-logo-international-trash-award.jpg',
         counter: 'mondelezCounter',
         link: 'international-trash-award-company.html?companyname=mondelez',
