@@ -79,4 +79,12 @@ const CATALOG = [
         counter: 'mondelezCounter',
         link: 'international-trash-award-company.html?companyname=mondelez',
     },
+
+    {
+        id: '12',
+        name: 'Mars',
+        logo: 'logocompany/mars-logo-international-trash-award.jpg',
+        counter: 'marsCounter',
+        link: 'international-trash-award-company.html?companyname=mars',
+    },
 ];

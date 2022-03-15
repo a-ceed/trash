@@ -35,7 +35,7 @@ var counterCoca;
         counterPg = result[8][1];
         counterMonsanto = result[9][1];
         counterMondelez = result[10][1];
-
+        counterMars = result[11][1];
 
         document.getElementById('cocaColaCounter').innerHTML = counterCoca;
         document.getElementById('bpCounter').innerHTML = counterBp;
@@ -48,6 +48,7 @@ var counterCoca;
         document.getElementById('pgCounter').innerHTML = counterPg;
         document.getElementById('monsantoCounter').innerHTML = counterMonsanto;
         document.getElementById('mondelezCounter').innerHTML = counterMondelez;
+        document.getElementById('marsCounter').innerHTML = counterMars;
 
 
     }
