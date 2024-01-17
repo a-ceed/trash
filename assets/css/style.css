@@ -1366,14 +1366,14 @@ footer {
 
 
 .my-flex-cont {
- display: flex;
- height: 130px;
- background-color: #2D2D2D;
- border-radius: 12px;
-  padding: 30px 30px 0px 30px;
-flex-grow:1;
-  min-width: 255px;
-margin: 0px;
+    display: flex;
+    height: 130px;
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 30px 30px 0px 30px;
+    flex-grow: 1;
+    min-width: 255px;
+    margin: 0px;
 }
 
 
