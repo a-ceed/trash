@@ -1,6 +1,6 @@
 'use strict';
 
-fetch('http://185.212.148.81:80/company')
+fetch('https://stat.internationaltrashaward.org/company')
     .then((response) => response.json())
     .then((data) => {
 
