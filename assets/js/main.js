@@ -260,14 +260,26 @@ function checkCookies(){
 }
 checkCookies();
 
-/*------------------
-URL Param
--------------------*/
-// const params = new Proxy(new URLSearchParams(window.location.search), {
-//     get: (searchParams, prop) => searchParams.get(prop),
-// });
-// let value = params.companyname; // "some_value"
-// console.log('Значение:', value);
+
+function stat(value){
+    const data = {
+        company: value
+    };
+
+    fetch("https://stat.internationaltrashaward.org/company", {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+        .then(response => {
+            console.log('Response:', response);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+}
 
 
 
