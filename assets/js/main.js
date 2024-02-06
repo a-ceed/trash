@@ -260,7 +260,6 @@ function checkCookies(){
 }
 checkCookies();
 
-
 function stat(value){
     const data = {
         company: value

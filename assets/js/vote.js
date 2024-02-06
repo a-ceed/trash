@@ -24,7 +24,7 @@ class Vote {
               
         <!-- Form -->
         <form action="https://docs.google.com/forms/d/e/1FAIpQLSeNGrZ0prkxw24jesu9K3l-BDmsNYro-zjOc5pA4uCDu5jFMQ/formResponse"
-        method="post" target="hidden_iframe" onsubmit="submitted=true;">
+        method="post" target="hidden_iframe" onsubmit="stat(value); submitted=true;">
 
         <div class="row">
         <div id="info"></div>
@@ -68,7 +68,7 @@ class Vote {
 style="display:none;" onload="if(submitted)
 {window.location='thanks.html';}"></iframe>
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSeNGrZ0prkxw24jesu9K3l-BDmsNYro-zjOc5pA4uCDu5jFMQ/formResponse" method="post"
-target="hidden_iframe" onsubmit="stat(value); submitted=true;">
+target="hidden_iframe" onsubmit="submitted=true;">
 
         </div>
         </div>
@@ -81,6 +81,8 @@ target="hidden_iframe" onsubmit="stat(value); submitted=true;">
         ROOT_VOITE.innerHTML = htmlCatalog;
     }
 }
+
+
 
 const votePage = new Vote();
 votePage.render();
