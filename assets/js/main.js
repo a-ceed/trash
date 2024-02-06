@@ -1,6 +1,5 @@
+'use strict';
 (function(window) {
-
-    'use strict';
 
     $.exists = function(selector) {
         return ($(selector).length > 0);
@@ -26,6 +25,27 @@
     ValidForm();
 
 })(window);
+
+
+function stat(){
+    const data = {
+        company: CONSTNAME,
+    };
+
+    fetch("https://stat.internationaltrashaward.org/company", {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+        .then(response => {
+            console.log('Response:', response);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+}
 
 /*--------------------
     Page Transition
@@ -260,25 +280,9 @@ function checkCookies(){
 }
 checkCookies();
 
-function stat(value){
-    const data = {
-        company: value
-    };
 
-    fetch("https://stat.internationaltrashaward.org/company", {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data)
-    })
-        .then(response => {
-            console.log('Response:', response);
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-}
+
+
 
 
 
