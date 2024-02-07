@@ -35,7 +35,8 @@ function stat(){
     fetch("https://stat.internationaltrashaward.org/company", {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': 'https://internationaltrashaward.org'
         },
         body: JSON.stringify(data)
     })
