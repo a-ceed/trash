@@ -34,14 +34,11 @@ function stat(){
 
     fetch("https://stat.internationaltrashaward.org/company", {
         method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*'
-        },
         body: JSON.stringify(data)
     })
         .then(response => {
             console.log('Response:', response);
+            debugger; // добавляем точку останова
         })
         .catch(error => {
             console.error('Error:', error);
